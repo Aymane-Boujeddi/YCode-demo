@@ -4,18 +4,15 @@
 #include <math.h>
 int main()
 {
-int i , j;
-for(i=0;i<=10;i++){
-            printf("%d\t",i);
+int i;
+int N=5;
+int fact=1 ;
+for(i=1;i<=N;i++){
+    fact*=i;
+    printf("%d",i);
+
 }
-     for(j=0;j<i;j++){
-
-            printf("%d\n\n %d\t",j,i*j);
-
-
-     }
-
-
+printf("the factoriel of %d is : %d",N,fact);
 
 
 
